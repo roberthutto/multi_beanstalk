@@ -11,7 +11,7 @@ phases:
     commands:
       - echo Build started on `date`
       - pwd
-      - $USER
+      - echo "$USER"
       - ls -la
       - ./hello.sh
   post_build:
