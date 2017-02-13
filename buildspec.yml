@@ -13,6 +13,7 @@ phases:
       - pwd
       - id -u -n
       - ls -la
+      - curl https://httpbin.org/get
       - chmod +x hello.sh
       - ./hello.sh
   post_build:
