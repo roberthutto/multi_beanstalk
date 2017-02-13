@@ -13,6 +13,7 @@ phases:
       - pwd
       - id -u -n
       - ls -la
+      - chmod +x hello.sh
       - ./hello.sh
   post_build:
     commands:
