@@ -14,7 +14,8 @@ phases:
       - id -u -n
       - ls -la
       - curl https://httpbin.org/get
-      - chmod +x hello.sh
+      - chmod +x hello.sh gradlew
+      - ./gradlew build
       - ./hello.sh
   post_build:
     commands:
